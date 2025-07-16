@@ -55,20 +55,4 @@ public:
     }
 };
 
-int main() {
-    DynamicArray da;
-    da.push(10);
-    da.push(20);
-    da.push(30);
-    da.push(40);
-    da.push(50); 
 
-    da.print(); 
-
-    da.pop();
-    da.print(); 
-
-    cout  << da.get(2) << endl; 
-
-    return 0;
-}
