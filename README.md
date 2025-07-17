@@ -7,7 +7,7 @@ Based on:
 Data Structures - Easy to Advanced Course – Full Tutorial from a Google Engineer
 # YouTube: https://www.youtube.com/watch?v=RBSGKlAvoiM
 
-# day-1 done 
+# day-1 Codes 
 
 - Dynamic Arrays : An array that grows automatically when it gets full. You can access items quickly and add new ones easily.
 -- push(value) – O(1) 
@@ -34,7 +34,7 @@ Data Structures - Easy to Advanced Course – Full Tutorial from a Google Engine
 -- print() – O(n)
 
 
-# Day-2 Done 
+# Day-2 Codes 
 - Queue using array : A simple structure where you add items at the end and remove from the front. It uses a fixed-size array.
 -- enqueue(value) – O(1)
 -- dequeue() – O(1)
@@ -65,7 +65,21 @@ Data Structures - Easy to Advanced Course – Full Tutorial from a Google Engine
 -- display() – O(n)
 -- isEmpty() – O(1)
 
-# Day-3 
+
+# Day-3 Codes
+
+
+-Binary Tree : A tree where each node has at most two children (left and right). No specific ordering between values.
+--inorder() - O(n)
+-- preorder() – O(n)
+-- postorder() – O(n)
+-- Node(int value) – O(1)
+
+
+-Binary Search Tree : A binary tree with ordering: left < root < right
+-- insert() – O(log n) average, O(n) worst
+-- inorder() – O(n)
+-- BSTNode(int value) – O(1)
 
 
 
