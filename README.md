@@ -100,6 +100,23 @@ Data Structures - Easy to Advanced Course – Full Tutorial from a Google Engine
 -- removeEdge(u, v) – O(k) where k is number of neighbors
 -- printGraph() – O(V + E)
 
+## - Trie : A tree-like structure to store words character by character  
+-- insert(word) – O(L)  
+-- search(word) – O(L)  
+-- startsWith(prefix) – O(L)  
+L is the length of the word or prefix
+
+## - Union-Find (Disjoint Set) : A structure to track connected components  
+-- find(x) – O(α(N))  
+-- unite(x, y) – O(α(N))  
+-- connected(x, y) – O(α(N))  
+α(N) is the inverse Ackermann function
+
+## - Graph (Adjacency List) : A graph represented using a vector of lists for each node  
+-- addEdge(u, v) – O(1)  
+-- depthFirstSearch(startVertex) – O(V + E)  
+-- breadthFirstSearch(startVertex) – O(V + E)  
+-- resetVisited() – O(V)
 
 
 
